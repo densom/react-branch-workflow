@@ -29,7 +29,7 @@ jobs:
         uses: martinbeentjes/npm-get-version-action@main
       
       # update the version (major or minor)
-
+ 
 
       # (future) make sure there is no other release active
       
