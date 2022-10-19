@@ -26,9 +26,11 @@ jobs:
       - uses: actions/checkout@v3
 
       # get the current version
-      - name: get-npm-version
+      - name: Get NPM version
         id: package-version
         uses: martinbeentjes/npm-get-version-action@main
+        
+      - name: show NPM version  
         run: echo ${{steps.package-version.outputs.current-version}}
       
       # update the version (major or minor)
