@@ -2,10 +2,14 @@
   "name": "react-branch-workflow",
   "version": "1.0.0",
   "description": "",
+  "repository": "github:densom/react-branch-workflow",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^10.1.0"
+  }
 }
