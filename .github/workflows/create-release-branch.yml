@@ -29,6 +29,7 @@ jobs:
       - name: get-npm-version
         id: package-version
         uses: martinbeentjes/npm-get-version-action@main
+        run: echo ${{steps.package-version.outputs.current-version}}
       
       # update the version (major or minor)
  
