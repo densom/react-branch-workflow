@@ -13,6 +13,31 @@ on:
         default: false
         required: true
 
+jobs:
+  create-release:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      # checkout code
+      - uses: actions/checkout@v3
+
+      # get the current version
+      - name: get-npm-version
+        id: package-version
+        uses: martinbeentjes/npm-get-version-action@main
+      
+      # update the version (major or minor)
+
+
+      # (future) make sure there is no other release active
+      
+      # create branch - release/
+
+      # push the change
+
+
 
 
 
