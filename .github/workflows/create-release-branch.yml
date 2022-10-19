@@ -2,6 +2,8 @@ name: Create Release Branch
 
 on:
   workflow_dispatch:
+    branches:
+      - "feature/create-release-workflow"
     inputs:
       release_name:
         description: "Release Name"
