@@ -1,0 +1,31 @@
+name: Bump version on main
+
+on:  
+  push:
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  bump-version:
+    runs-on: ubuntu-latest
+    steps:
+
+      # checkout code
+      - uses: actions/checkout@v3
+
+      # setup node environment
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+
+      # bump version
+      - name: bump version
+        uses: "phips28/gh-action-bump-version@master"
+        with:
+          tag-prefix: 'v'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+
+
+    
