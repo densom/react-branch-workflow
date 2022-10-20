@@ -2,3 +2,4 @@ I will use this file to commit fake changes.
 made a change for feature 1.0.5
 made another change for feature 1.0.5
 one more
+change for feature minor
