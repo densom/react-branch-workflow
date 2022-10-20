@@ -3,3 +3,4 @@ made a change for feature 1.0.5
 made another change for feature 1.0.5
 one more
 change for feature minor
+one more change
