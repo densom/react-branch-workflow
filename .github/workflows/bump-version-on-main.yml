@@ -2,6 +2,7 @@ name: Bump version on main
 
 on:  
   push:
+    branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
 
