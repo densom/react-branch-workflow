@@ -1,1 +1,3 @@
 I will use this file to commit fake changes.
+made a change for feature 2
+made another change for feature 2
